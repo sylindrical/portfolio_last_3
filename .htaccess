@@ -1,0 +1,17 @@
+
+    
+
+RewriteEngine On
+RewriteBase /
+
+# Condition 1: If the request URI is not '/index.php'
+RewriteCond %{REQUEST_URI} !=/index.php
+
+# Condition 2: If the request URI does not contain 'views'
+RewriteCond %{REQUEST_URI} !^.*views.*$
+
+# Condition 3: If the request URI does not end with '.js'
+RewriteCond %{REQUEST_URI} !^.*\.js$
+
+# Rewrite rule to redirect everything else to 'index.php'
+RewriteRule .* index.php [L]

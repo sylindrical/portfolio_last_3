@@ -1,0 +1,70 @@
+li
+{
+    list-style-type: none;
+}
+
+*
+{
+    padding:0;
+    margin:0;
+}
+[Name="SubmitBTN"]
+{
+    background-color: green;
+    color:white;
+    border: none;
+    padding: 5px;
+}
+#register-box
+{
+    position:absolute;
+    top:50%;
+    right:50%;
+    transform:translate(50%, -50%);
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#error
+{
+    width:100%;
+    margin: 20px 0;
+    background-color: lightcoral;
+    border:1px solid red;
+    color:white;
+
+    display:none;
+    align-items: center;
+    flex-direction: column;
+}
+li
+{
+    text-align: center;
+}
+#server-error
+{
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    bottom:30%;
+    width:25%;
+    margin:20px 0;
+    height:8vh;
+
+    background-color: olive;
+    border: 1px solid black;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a
+{
+    text-decoration: none;
+    color:blue;
+}

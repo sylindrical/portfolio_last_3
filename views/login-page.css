@@ -1,0 +1,44 @@
+
+*
+{
+    margin:0;
+    padding:0;
+}
+
+input[type=submit]
+{
+    background-color: red;
+    border: none;
+    padding: 5px;
+}
+
+a
+{
+    text-decoration: none;
+    color:blue;
+}
+
+
+#login-box
+{
+    position:fixed;
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+#login-box li
+{
+    list-style-type: none;
+    vertical-align: center;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
